@@ -9,6 +9,11 @@ $ mix deps.get
 ```
 
 ## Usage
+- Create an account and get an api key on: https://openweathermap.org/
+
+- Change the key on `lib/app/weather.ex::@api_key`
+- Start :)
+
 ### One by one:
 ```bash
 $ iex -S mix

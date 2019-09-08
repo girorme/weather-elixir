@@ -1,10 +1,11 @@
 defmodule App.Weather do
 
   @api "http://api.openweathermap.org/data/2.5/weather?q="
+  @api_key "YOUR_API_KEY"
   @kelvin_subtract 273.15
 
   def get_appid() do
-    "3d13e3fb0bc00538c76d9ccbc9b7ca82"
+    @api_key
   end
 
   def get_endpoint(location) do
